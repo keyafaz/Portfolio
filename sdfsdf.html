@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Keya Fazelinia</title>
+	<link rel="stylesheet" href="stylesheets/w3.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/port.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script src="https://use.fontawesome.com/aad9034f00.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+</head>
+<body   id="home">
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-collapse w3-animate-left leftnav w3-transparent z-depth-5" id="mySidenav">
+  <div class="w3-container navcon">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-xlarge w3-padding" title="close menu"><i class="fa fa-remove"></i></a>
+    <img src="images/profile_pic.JPEG"  class="w3-round profile_pic"><br><br>
+  </div>
+	<a href="#home" class="home_but"><i class="fa fa-home w3-text-shadow" aria-hidden="true"></i><span class="w3-text-shadow"> Home</span></a>
+	<a href="#aboutme"><i class="fa fa-user" aria-hidden="true"></i> About Me</a>
+	<a href="#portfolio"><i class="fa fa-picture-o" aria-hidden="true"></i> Portfolio</a>
+	<a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact Me</a>
+   
+  <div class="w3-section w3-large">
+    <a href="https://www.facebook.com/keya.fazelinia" class="w3-hover-text-indigo w3-show-inline-block" target="_blank"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://twitter.com/keyafazelinia" class="w3-hover-text-light-blue w3-show-inline-block" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/keyafaz" class="w3-hover-text-black w3-show-inline-block" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/keyafazelinia" class="w3-hover-text-blue w3-show-inline-block" target="_blank"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()"  title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" id="main"> 
+  <!-- Header -->
+	<header class="w3-container">
+	    <a href="#"><img src="images/profile_pic.JPEG" id="rwd_pic" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+	    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-black w3-text-light-grey" id="bar" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+	    <div class="content">
+	    	<div class="visible">
+	    		<p>Hello</p>
+	    		<ul>
+	    			<li>world !</li>
+	    			<li>friend !</li>
+	    			<li>users !</li>
+	    			<li>everybody !</li>
+	    		</ul>
+	    	</div>		
+	    </div>
+	    	
+		<div id="intro">	
+			<div id="sum">
+				<h3 class="w3-opacity w3-text-white"> I am a driven full stack developer,</h3><span > passionate about efficient code, technology, and creating products that serve a greater breadth of humanity. Take a look around and check out some my recent projects on my <a href="#portfolio">Portfolio page</a>. I am always available to chat at kfazelinia@gmail.com</span> 
+			</div>
+	    </div>
+	</header>
+ 
+ 	<div class="parallax-container">
+		<div class="parallax">
+			<div class="box">
+				<div class="smoke"></div>
+			</div>	
+		</div>
+	</div>
+
+	<div class="section whites">
+		<div class="row container" id="aboutme">
+			<h2 class="header">Who Am I?</h2>
+			<p class="fl">I am in love with Web Development … and from what I can tell, Web Development loves me back.</p>
+			
+			<div class="oval"><h2 id="beautiful" >Being given the opportunity to create  something every day is a beautiful thing…</h2></div>
+			<div class="text">
+			<p>I am passionate about web development because of its ability to impact and improve people’s lives, and I am willing and eager to keep pushing the envelope as it pertains to impacting the technology space. I want to be able to say "I created that, I made a difference." Web development is unique in that there exists communities of developers excited to help each other learn and improve the profession from the inside out. I can’t think of a better environment to change the world and improve lives.</p>
+			</div>
+			<div class="text">
+			<p>I love challenges and am unafraid of learning new and current technologies that will help me make an impact in all that I do. Whether it is back-end or front-end I am up for the challenge. </p>
+			<p>Society may tell me that I am not fit to be a programmer, but I am here to prove them wrong. As long as I have my tools… Ruby on rails, JavaScript, HTML, CSS, Python, jQuery, etc. … me and my love can conquer anything we set out to do.</p>
+			</div>
+			<p class="fl">Like I said, I’m in love with Web Development.</p>
+			<table class="table">
+				<thead class="w3-opacity">
+					<th>Languages</th>
+					<th>Front-End</th>
+					<th>Back-End</th>
+					<th>Databases</th>
+					<th>MISC</th>
+				</thead>
+				<tbody class="w3-opacity">
+					<tr>
+						<td>Ruby, JavaScript, Python</td>
+						<td>HTML5, CSS3, JavaScript, jQuery, jQuery UI, AJAX, Angular.js, Bootstrap, Pure.CSS, W3.CSS, Materialize.CSS</td>
+						<td>Node.js, Express, Rails, Flask, Pylot, Socket.io</td>
+						<td>MySQL, SQLite, NoSQL (MongoDB), PostgreSQL, Mongoose.js</td>
+						<td>Git, Sublime Text, GitHub, Amazon EC2, MySQL Workbench, Test Driven Development</td>
+					</tr>
+				</tbody>
+			</table>
+   		</div>
+	</div>
+
+	<div class="parallax-container">
+		<div class="parallax">
+			<div class="box">
+				<div class="smoke"></div>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="section tan window">
+		<div class="row container" id="portfolio">
+			<h2 class="header">Portfolio</h2>
+			<p class="grey-text text-darken-3 lighten-3">Take a look at some of awesome apps that I have created as well as projects I’m currently working on. Don’t forget to check out my <a href="https://github.com/keyafaz" target="_blank">GitHub</a> for other cool creations.</p>
+			<div class="w3-container">
+
+			<!-- tabs -->
+			<div id="tabs">
+			  <ul class="nav nav-tabs w3-bottombar w3-padding-16">
+			    <li class="btn "><a href="#tabs-1" class="w3-btn w3-black w3-hover w3-text-shadow">All </a></li>
+			    <li class="btn"><a href="#tabs-2" class="w3-btn w3-transparent w3-text-shadow w3-hover-black"><i class="fa fa-diamond"></i>  Ruby</a></li>
+			    <li class="btn"><a href="#tabs-3" class="w3-btn w3-transparent w3-hover-black w3-text-shadow"><img src="images/mean_icon.png"  style="width:16px; margin-top:-10px;">  MEAN</a></li>
+			    <li class="btn"><a href="#tabs-4" class="w3-btn w3-transparent w3-hover-black w3-text-shadow" > <img src="images/python_icon.png"  style="width:16px; margin-top:-10px;">  Python</a></li>
+			  </ul>
+
+			<div id="tabs-1">
+				<div class="galleryItem w3-padding-4">
+					<img src="images/Bright_ideas.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-Bright Ideas" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Bright Ideas</h3>
+						<p>Bright Ideas is a web app that allows users to post ideas on a dashboard. Users can like ideas posted by other users and delete ideas that they post. Users can click on the idea and see total number of likes as well as a list of users who liked it or they can click on other users name and see the total number of posts and likes they have.</p>
+						<p>Technologies: Ruby on Rails, PostgreSQL, BCrypt, Capybara, Pure.CSS, W3.CSS</p>
+						<a href="http://youtu.be/FOj3HpGfe5Q?hd=1" target="_blank" class="btn btn-default" role="button">Video</a> 
+						<a href="https://github.com/keyafaz/Bright-Ideas" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+
+				<div class="galleryItem w3-padding-4">
+					<img src="images/events.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-Events" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Events</h3>
+			         <p>Events is web app that allows users to create and join events/cancel participation. The Event Dashboard displays all events separated by the state to where the event will be held: 1 table shows all the events located in the same state as the logged in user’s location and a second table for all events held in other states. The user who created an event has the option to edit or delete that event. Logged users can also add comments on the discussion board per event and see the attendees per event.</p>
+						<p>Technologies: Ruby on Rails, PostgreSQL, BCrypt, Capybara, Pure.CSS, W3.CSS</p>
+						<a href="http://youtu.be/bHUmJ3Agd1g?hd=1" target="_blank" class="btn btn-default" role="button">Video</a>
+						<a href="https://github.com/keyafaz/Events" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+
+				<div class="galleryItem">
+					<img src="images/Ninja_Gold.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-Ninja Gold" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Ninja Gold Game</h3>
+						<p>The goal in this mini-game is to help a ninja make money. At the start of the game, the ninja has 0 gold. The ninja can visit different places (farm, cave, house, or casino) to earn different amounts of gold. My objective was to create a web app that allows a ninja to earn a certain amount of gold per place visited, display past activities of the ninja (I queried the activity log to show only the 5 most recent activities), and to determine the total amount of gold the user should have and to save this and the activity log using sessions.</p>
+						<p>Technologies: Ruby on Rails, SQLite, HTML5, CSS3, W3.CSS</p>
+						<a href="http://youtu.be/vUW6R3Wc2YE?hd=1" target="_blank" class="btn btn-default" role="button">Video</a>
+						<a href="https://github.com/keyafaz/Ninja-Gold-Game" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+				 
+			 	<div class="galleryItem">
+					<a href=""><img src="..." alt="images/players_teams.PNG" /></a>
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet...</p>
+				</div>
+				 
+
+				<div class="galleryItem">
+					<a href="#"><img src="..." alt="" /></a>
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet...</p>
+				</div>
+			</div>
+
+			<div id="tabs-2">
+				<div class="galleryItem w3-padding-4">
+					<img src="images/Bright_ideas.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-Bright Ideas" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Bright Ideas</h3>
+						<p>Bright Ideas is a web app that allows users to post ideas on a dashboard. Users can like ideas posted by other users and delete ideas that they post. Users can click on the idea and see total number of likes as well as a list of users who liked it or they can click on other users name and see the total number of posts and likes they have.</p>
+						<p>Technologies: Ruby on Rails, PostgreSQL, BCrypt, Capybara, Pure.CSS, W3.CSS</p>
+						<a href="http://youtu.be/FOj3HpGfe5Q?hd=1" target="_blank" class="btn btn-default" role="button">Video</a> 
+						<a href="https://github.com/keyafaz/Bright-Ideas" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+
+				<div class="galleryItem w3-padding-4">
+					<img src="images/events.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-Events" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Events</h3>
+			         <p>Events is web app that allows users to create and join events/cancel participation. The Event Dashboard displays all events separated by the state to where the event will be held: 1 table shows all the events located in the same state as the logged in user’s location and a second table for all events held in other states. The user who created an event has the option to edit or delete that event. Logged users can also add comments on the discussion board per event and see the attendees per event.</p>
+						<p>Technologies: Ruby on Rails, PostgreSQL, BCrypt, Capybara, Pure.CSS, W3.CSS</p>
+						<a href="http://youtu.be/bHUmJ3Agd1g?hd=1" target="_blank" class="btn btn-default" role="button">Video</a>
+						<a href="https://github.com/keyafaz/Events" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+
+				<div class="galleryItem">
+					<img src="images/Ninja_Gold.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-Ninja Gold" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Ninja Gold Game</h3>
+						<p>The goal in this mini-game is to help a ninja make money. At the start of the game, the ninja has 0 gold. The ninja can visit different places (farm, cave, house, or casino) to earn different amounts of gold. My objective was to create a web app that allows a ninja to earn a certain amount of gold per place visited, display past activities of the ninja (I queried the activity log to show only the 5 most recent activities), and to determine the total amount of gold the user should have and to save this and the activity log using sessions.</p>
+						<p>Technologies: Ruby on Rails, SQLite, HTML5, CSS3, W3.CSS</p>
+						<a href="http://youtu.be/vUW6R3Wc2YE?hd=1" target="_blank" class="btn btn-default" role="button">Video</a>
+						<a href="https://github.com/keyafaz/Ninja-Gold-Game" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+			</div>
+			
+			<div id="tabs-3">
+			    <div class="galleryItem">
+					<img src="images/players_teams.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-players" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Players and Teams</h3>
+						<p>Web app that allows users to keep track of players and their associated teams. Users can create players and teams that are displayed in a table and can create associations between the two. Users can also update player-team association.</p>
+						<p>Technologies: AngularJS, Express, JavaScript </p>
+						<a href="http://youtu.be/iPYDAJnBmjU?hd=1" target="_blank" class="btn btn-default" role="button">Video</a>
+						<a href="https://github.com/keyafaz/Players-and-Teams" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+				<div class="galleryItem">
+					<img src="images/friends.PNG" class="img-responsive w3-hover-opacity" alt="Responsive image-friends" style="width:100%;" target="_blank">
+					<div class="w3-container w3-center">
+						<h3>Friends</h3>
+						<p>Web app that allows users to create, edit and delete friends and displays a list of all friends</p>
+						<p>Technologies: AngularJS, Express, Mongoose, MongoDB, JavaScript</p>
+						<a href="http://youtu.be/OeUoRg3mWVI?hd=1http://youtu.be/iPYDAJnBmjU?hd=1" target="_blank" class="btn btn-default" role="button">Video</a>
+						<a href="https://github.com/keyafaz/Friends" target="_blank" class="btn btn-default" role="button">Github</a>
+					</div>
+				</div>
+			</div>
+			<div id="tabs-4">
+	
+				</div>
+			</div>
+		</div>
+			<!-- end tabs -->
+		</div>
+	</div>
+
+	<div class="parallax-container">
+		<div class="parallax">
+			<div class="box">
+				<div class="smoke"></div>
+			</div>	
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="row container" id="contact">
+			<h2 class="headercontact w3-text-white">Contact Me</h2>
+			<center>
+				<p class="w3-text-light-grey">Stop by and say hello! I would love to hear from you.</p>
+				<h5 class="w3-hover-light-grey w3-padding w3-show-inline-block w3-round">keyafazelinia@gmail.com</h5>
+				<form class="w3-form" action="mailto:keyafazelinia@gmail.com?Subject=From%20Portfolio" method="post" enctype="text/plain">
+					<label for="name" class="w3-validate sr-only"></label>
+					<input class="w3-input w3-animate-input" id="name" type= 'text' name='name' placeholder='Name' required>
+					<label for="email" class="w3-validate sr-only"></label>
+					<input class="w3-input w3-animate-input" id="email" type='email' name='email' placeholder='Email' required>
+					<textarea class="w3-input w3-animate-input" name='content' placeholder='Message Content' required></textarea>
+					<input class='w3-hover-pale-red w3-btn w3-light-grey w3-round-xlarge w3-text-shadow w3-margin-top' type='submit' value='CONTACT'>
+				</form>
+			</center>
+		</div>
+	</div>
+
+	<div class="parallax-container">
+		<div class="parallax">
+			<div class="box">
+				<div class="smoke"></div>
+			</div>	
+		</div>
+	</div>
+
+	<div id="footer" class="w3-bottom" >
+		<div class="bwrapper" >
+			<a href="#home">
+				<div class="logo">
+					<div class="element logo-text pre-test" id="sdew_1" ><p>t</p></div>
+					<div class="element logo-text pre-test selected" id="sdew_2" ><p>o</p></div>
+					<div class="element logo-text pre-test" id="sdew_3" ><p>p</p></div>
+				</div>
+			</a>
+		</div>
+	</div>
+<!-- End page content -->
+
+<script src="js/script.js"></script>	
+</body>
+</html>
